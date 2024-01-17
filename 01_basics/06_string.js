@@ -14,3 +14,5 @@ console.log(name.endsWith());
 console.log(name.bold())
 console.log(name.toUpperCase())
 console.log(name.charAt('u'))
+//you can see more exaples of it in mdn and javascript ecma
+//ive done it more nut ,ight have been deleted
