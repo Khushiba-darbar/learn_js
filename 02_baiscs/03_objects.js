@@ -11,11 +11,12 @@ email: "hitesh@gmail.com",
 isloggedin: false,
 last_loggedin_days: ["monday","friday"]
 }
+//mostly is printed ny . but sometimes when req [] is used
 console.log(JSuser.mysym)//symbol is printed but it is string
 console.log( typeof JSuser.mysym)
 
-console.log(JSuser[mysym])//to declare or print an obj it should be qoutes in[]
-console.log( typeof JSuser.mysym)
+//to declare or print an obj it should be qoutes in[]
+
 
 console.log(JSuser.email)//shortcut way of accessing
 console.log(JSuser["email"])//right way of accesing 
@@ -27,3 +28,22 @@ console.log(JSuser2["fullname"])
 
 JSuser.email="chatgpt@gmail.com"
 console.log(JSuser.email);
+
+//Object.freeze(JSuser)//no changes will be done in it further
+
+JSuser.email="google@gmail.com"
+console.log(JSuser.email);
+
+JSuser.greetings= function()
+{
+    console.log("hello world");
+}
+
+JSuser.greetings2= function()
+{
+    console.log(`hello world,my name is ${JSuser.name}`);
+    console.log(`hello world,my name is ${this.name}`);}
+
+console.log(JSuser.greetings);//by this we get refernce of functionn
+console.log(JSuser.greetings());
+
