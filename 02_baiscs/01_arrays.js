@@ -32,16 +32,18 @@ console.log(newarr);//coverts array to string
 
 /********slice and splice******** */
 //slice=returns a copy of section of an array
+//last element is not included
 
 console.log("A",arr2)
 let myn1=arr2.slice(1,3)
-console.log(myn1);
+console.log("ansa",myn1);//[ 'shahrukhkhan', 'salmankhan' ]
 
 console.log("B",arr2)
 let myn2=arr2.splice(1,3)
-console.log("c",arr2);//1 to 3 is not incl ie gives out by manipulating original array
+console.log("c",arr2);//c [ 'shaktiman', 'aamirkhan', 6, 7 ]
+//1 to 3 is not incl ie gives out by manipulating original array
 //splice krya pchi print karaiye to je juno array hto hve e change thai gyo
-console.log(myn2);
+console.log(myn2);//[ 'shahrukhkhan', 'salmankhan', 'imraankhan' ]
 
 
 /*******************************************************************************
