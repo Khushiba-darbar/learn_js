@@ -17,7 +17,7 @@ console.log(mycreateddate.getTime())
 console.log(Date.now()/1000)//gives time in seconds with decimals
 console.log(Math.floor(Date.now()/1000))//to remove decimals
 
-let newdate=new Date(2023-03-24)
+let newdate=new Date(2023-0o3-24)
 console.log(newdate);
 console.log(newdate.getDate)
 console.log(newdate.getDay);
