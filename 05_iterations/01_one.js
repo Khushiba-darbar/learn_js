@@ -20,3 +20,20 @@ for (let index = 0; index < myarr.length; index++) {
     
 }*/
 
+//break and continue
+
+/*for (let index = 1; index <=20; index++) {if(index===5){
+     console.log(`detceted 5`);
+     break//it break the loop from here
+}
+    const element = index;
+    console.log(`value of i is${index}`);
+}*/
+
+for (let index = 1; index <=20; index++) {if(index===5){
+    console.log(`detceted 5`);
+    continue//it just terminate the after process for that element but continues again for same element
+}
+   const element = index;
+   console.log(`value of i is${index}`);
+}
