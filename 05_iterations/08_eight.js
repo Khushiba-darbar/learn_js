@@ -7,5 +7,5 @@ console.log(mytotal);
 
 mytotal=munums.reduce((acc,cv)=>
     (console.log(`acc:${acc} and cv is ${cv}`)
-    acc+cv;),0)
+    acc+cv),0;
     console.log(mytotal);
