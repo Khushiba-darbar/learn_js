@@ -68,5 +68,5 @@ console.log(r2);
 
 
 const Myarray=[2,3,45,56,7]
-Myarray.forEach(function())
+Myarray.forEach(function(){})
 //Myarray.forEach(name=()=>{})
