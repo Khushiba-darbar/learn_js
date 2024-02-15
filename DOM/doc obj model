@@ -1,0 +1,16 @@
+                   window
+                      |
+                    document
+                      | 
+                     html  
+                     /  \
+                    /    \
+                   /      \
+                 head     body
+                 /  \       |
+                /    \      |
+            title   meta   div(attribute)
+            /         \         /    \
+        titlenode   metanode   h1    p
+                                |    |
+                          heading   paragraph    
