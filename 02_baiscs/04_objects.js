@@ -76,6 +76,6 @@ navbar(company="hitesh")*/
 
 {
     name:"learn js",
-    price:100000,
-    instruct:"hiteshsir"
+    price=100000,
+    instruct="hiteshsir"
 }
