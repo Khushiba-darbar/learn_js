@@ -19,13 +19,15 @@ let h1=document.createElement("h1")
 div.className="main"
 div.id=Math.random()*10+1
 div.setAttribute("title","generated title")
-console.log(h1.innerText="Hello World!")
+let hello=document.createTextNode("Hello World!")
+//div.appendChild(hello)
+document.body.appendChild(div)
 console.log(div.innerText="hey my name is khushi")   
 
 
 let text=document.createTextNode("hey my name is khushi")
-div.appendChild(text)
- document.body.appendChild(div)*/
- //pela ek text node create krvani createText node thi and pchi ane div ma add krvanu(append) nd then add that div in body
+//div.appendChild(text)
+ document.body.appendChild(div)
+ //pela ek text node create krvani createText node thi and pchi ane div ma add krvanu(append) or add that div in body
 </script>
 </html>

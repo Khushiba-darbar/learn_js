@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>khushi</title>
+    <style>
+        .bgcolor{
+            background-color:indianred;
+            color:blanchedalmond;
+            margin:50px;
+            
+        }
+    </style>
+</head>
+<body class="bgcolor"><ul class="language"><h1> Languages</h1>
+    <li >javascript</li>
+</ul>
+    
+</body>
+<script>
+    function addLanguage(LangName){
+        const li=document.createElement("li")
+        li.innerHTML=`${LangName}`
+        document.querySelector(".language").appendChild(li)//document ni andar labg naam na class ma add kri
+    }
+addLanguage("python")
+addLanguage("java")
+
+//optimized code
+
+function addoptlang(Langname)
+{const li=document.createElement("li")
+//li.appendChild(document.createTextNode(Langname))
+let text=document.createTextNode(Langname)
+li.appendChild(text)
+document.querySelector(".language").appendChild('li')
+
+//element create kro anu naam lo createtextnode thi and then ane add lro li ma and e li ne document ma add kro
+}
+addLanguage("ruby")
+addLanguage("c")
+addLanguage(".net")
+addLanguage("html")
+
+// editing values
+
+
+
+
+</script>
+
+</html>
