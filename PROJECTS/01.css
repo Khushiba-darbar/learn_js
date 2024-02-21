@@ -1,0 +1,30 @@
+.bg{margin: 50px;
+   
+ background-color: bisque;
+ color:black;
+ text-align: center;
+}
+.buttons{
+    height: 100px;
+    width: 100px;
+    border-style:solid;
+    border-radius: 5px;
+    display: inline-block;
+}
+#pastel1
+{
+    background-color:rgb(209, 169, 169) ;
+    
+}
+#pastel2
+{
+    background-color: rgb(203, 184, 223);
+}
+#pastel3
+{
+    background-color: rgb(168, 184, 212);
+}
+#pastel4
+{
+    background-color: rgb(199, 211, 179);
+}
